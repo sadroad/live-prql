@@ -1,0 +1,42 @@
+   Compiling liveprql v0.1.0 (/home/sadroad/Documents/Coding/liveprql)
+warning: unused import: `std::any`
+ --> src/main.rs:1:5
+  |
+1 | use std::any;
+  |     ^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `cursive::event::Event`
+ --> src/main.rs:3:5
+  |
+3 | use cursive::event::Event;
+  |     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `cursive::event::Key`
+ --> src/main.rs:4:5
+  |
+4 | use cursive::event::Key;
+  |     ^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `cursive::views::ResizedView`
+  --> src/main.rs:12:5
+   |
+12 | use cursive::views::ResizedView;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `OnEventView`, `TextArea`
+  --> src/main.rs:13:36
+   |
+13 | use cursive::views::{LinearLayout, OnEventView, TextArea, TextView};
+   |                                    ^^^^^^^^^^^  ^^^^^^^^
+
+warning: unused import: `prql_compiler::Options`
+  --> src/main.rs:14:5
+   |
+14 | use prql_compiler::Options;
+   |     ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `liveprql` (bin "liveprql") generated 6 warnings (run `cargo fix --bin "liveprql"` to apply 6 suggestions)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.19s
+     Running `target/debug/liveprql`
